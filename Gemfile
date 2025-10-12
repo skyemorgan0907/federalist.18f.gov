@@ -4,7 +4,7 @@ gem 'uswds-jekyll'
 gem 'jekyll-redirect-from'
 
 group :development, :test do
-  gem 'capybara'
+  gem 'capybara', '>= 3.13.0'
   gem 'colorize'
   gem 'rack-jekyll'
   gem 'rb-readline'
